@@ -24,7 +24,7 @@ public:
     void insert(const T &val);
     bool exists(const T &val) const;
     int size() const;
-
+    
     treeNode * traverse_next(treeNode *, treeNode *) const;
     
     bool is_preorder(treeNode *, treeNode *) const;
